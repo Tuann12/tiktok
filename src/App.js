@@ -1,6 +1,6 @@
 function App() {
     return (
-        <div style={{ padding: 50 }}>
+        <div>
             <h1>HI ae</h1>
         </div>
     );
