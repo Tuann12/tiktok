@@ -2,10 +2,15 @@
 @import url('https://use.typekit.net/nko5fvg.css');
 
 :root {
+    //Default layout
+    --default-layout-header-height: 60px;
+    --default-layout-width: 1150px;
 }
 
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 html {
