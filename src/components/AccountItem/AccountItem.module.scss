@@ -1,0 +1,40 @@
+.wrapper {
+    --color-checkicon: #20d5ec;
+
+    padding: 9px 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.06);
+    }
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.info {
+    flex: 1;
+    margin-left: 12px;
+}
+
+.name {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.checkicon {
+    font-size: 1.4rem;
+    color: var(--color-checkicon);
+    margin-left: 6px;
+}
+
+.username {
+    font-size: 1.4rem;
+    color: rgba(22, 24, 35, 0.5);
+}
